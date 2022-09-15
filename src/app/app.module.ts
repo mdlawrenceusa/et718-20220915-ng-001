@@ -14,6 +14,9 @@ import { OllieMainComponent } from './ollie-main/ollie-main.component';
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
+      { path: 'bikeshop', component: OllieMainComponent },
+
+
     ])
   ],
   declarations: [
